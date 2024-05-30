@@ -1,5 +1,5 @@
-from Chess.src.board import Board
+from game import Game
 
 if __name__ == "__main__":
-    board = Board()
-    board.display()
+    game = Game()
+    game.play()
